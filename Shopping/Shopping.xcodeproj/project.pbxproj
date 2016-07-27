@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EAA07F681D4949F900755320 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA07F671D4949F900755320 /* SecondViewController.swift */; };
 		EAFF8F001D49152B0099005D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFF8EFF1D49152B0099005D /* AppDelegate.swift */; };
 		EAFF8F021D49152B0099005D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFF8F011D49152B0099005D /* ViewController.swift */; };
 		EAFF8F051D49152B0099005D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAFF8F031D49152B0099005D /* Main.storyboard */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EAA07F671D4949F900755320 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondViewController.swift; path = AFNetworking/SecondViewController.swift; sourceTree = "<group>"; };
 		EAFF8EFC1D49152B0099005D /* Shopping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shopping.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAFF8EFF1D49152B0099005D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EAFF8F011D49152B0099005D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				EAFF8F2F1D4920580099005D /* AFNetworking */,
 				EAFF8EFF1D49152B0099005D /* AppDelegate.swift */,
 				EAFF8F011D49152B0099005D /* ViewController.swift */,
+				EAA07F671D4949F900755320 /* SecondViewController.swift */,
 				EAFF8F031D49152B0099005D /* Main.storyboard */,
 				EAFF8F061D49152B0099005D /* Assets.xcassets */,
 				EAFF8F0B1D49152B0099005D /* Info.plist */,
@@ -226,7 +229,7 @@
 		EAFF8EF41D49152B0099005D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = TJ;
+				CLASSPREFIX = "";
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Innovatis Tech";
@@ -301,6 +304,7 @@
 				EAFF8F421D4920580099005D /* AFURLSessionManager.m in Sources */,
 				EAFF8F021D49152B0099005D /* ViewController.swift in Sources */,
 				EAFF8F001D49152B0099005D /* AppDelegate.swift in Sources */,
+				EAA07F681D4949F900755320 /* SecondViewController.swift in Sources */,
 				EAFF8F3E1D4920580099005D /* AFNetworkReachabilityManager.m in Sources */,
 				EAFF8F3F1D4920580099005D /* AFSecurityPolicy.m in Sources */,
 				EAFF8F401D4920580099005D /* AFURLRequestSerialization.m in Sources */,

@@ -24,6 +24,7 @@ class ViewController: UIViewController {
                 if success
                 {
                     print("login")
+                    self.performSegueWithIdentifier("sunny", sender: self)
                 }else
                 {
                     print("kkkk")
