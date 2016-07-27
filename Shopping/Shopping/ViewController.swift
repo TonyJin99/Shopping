@@ -7,13 +7,37 @@
 //
 
 import UIKit
+import LocalAuthentication
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-    }
+        let auth = LAContext()
+        var authError: NSError?
+        
+        if auth.canEvaluatePolicy(LAPolicy.DeviceOwnerAuthenticationWithBiometrics, error: &authError)
+        {
+            auth.evaluatePolicy(LAPolicy.DeviceOwnerAuthenticationWithBiometrics, localizedReason: "Secure Login", reply: {(success,policerror) -> Void in
+                
+                if success
+                {
+                    print("login")
+                }else
+                {
+                    print("kkkk")
+                }
+                
+            })
+        }else
+        {
+            print(authError?.localizedDescription)
+            
+        }}
+
+        
+    
 
 
 
