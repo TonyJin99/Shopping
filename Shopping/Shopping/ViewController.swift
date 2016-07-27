@@ -34,9 +34,12 @@ class ViewController: UIViewController {
         {
             print(authError?.localizedDescription)
             
-        }}
+        }
+        print("jjj")
+    }
 
-        
+    
+   
     
 
 
