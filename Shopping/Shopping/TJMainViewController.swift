@@ -13,6 +13,8 @@ class TJMainViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        print("33")
+        
         let manager = AFHTTPSessionManager()
         
         let parameters = NSMutableDictionary()
