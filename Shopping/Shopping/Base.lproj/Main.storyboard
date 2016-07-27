@@ -17,12 +17,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <view alpha="0.75" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Sh-mV-CSY">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="0.97716955240000003" colorSpace="calibratedRGB"/>
+                            </view>
                             <imageView userInteractionEnabled="NO" alpha="0.29999999999999999" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shutterstock_285398216" translatesAutoresizingMaskIntoConstraints="NO" id="Ktj-aL-WNn">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RsF-Hh-xzX">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RsF-Hh-xzX">
                                 <rect key="frame" x="116" y="501" width="88" height="30"/>
                                 <color key="backgroundColor" red="0.28235294119999998" green="0.3921568627" blue="0.63529411759999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="YQI-oS-2CA"/>
+                                </constraints>
                                 <state key="normal" title="Login">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -41,14 +48,22 @@
                         <constraints>
                             <constraint firstItem="Ktj-aL-WNn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="8eN-fA-ZvO"/>
                             <constraint firstItem="Ktj-aL-WNn" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Ey7-ys-pv9"/>
+                            <constraint firstItem="0Sh-mV-CSY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="FeI-BY-JiN"/>
+                            <constraint firstItem="voq-Gf-lJ1" firstAttribute="top" secondItem="0Sh-mV-CSY" secondAttribute="bottom" id="H73-aQ-d0U"/>
+                            <constraint firstItem="voq-Gf-lJ1" firstAttribute="top" secondItem="RsF-Hh-xzX" secondAttribute="bottom" constant="37" id="JqP-qP-1TL"/>
+                            <constraint firstItem="RsF-Hh-xzX" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="116" id="LNX-wz-Ydm"/>
                             <constraint firstItem="tiY-bO-a3j" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="40" id="MyJ-GZ-c8M"/>
                             <constraint firstItem="Ktj-aL-WNn" firstAttribute="bottom" secondItem="voq-Gf-lJ1" secondAttribute="top" id="PM5-6y-WjP"/>
                             <constraint firstAttribute="trailing" secondItem="tiY-bO-a3j" secondAttribute="trailing" constant="40" id="Phi-Np-T6Y"/>
+                            <constraint firstItem="0Sh-mV-CSY" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="aW6-aX-pTg"/>
+                            <constraint firstAttribute="trailing" secondItem="0Sh-mV-CSY" secondAttribute="trailing" id="bYA-u5-LGx"/>
                             <constraint firstItem="tiY-bO-a3j" firstAttribute="top" secondItem="hVS-fC-df6" secondAttribute="bottom" constant="44" id="lmz-S5-urt"/>
                             <constraint firstAttribute="trailing" secondItem="Ktj-aL-WNn" secondAttribute="trailing" id="qUQ-Jj-sQ4"/>
+                            <constraint firstAttribute="trailing" secondItem="RsF-Hh-xzX" secondAttribute="trailing" constant="116" id="uBW-Wi-9C7"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="coverView" destination="0Sh-mV-CSY" id="SQb-jX-CCh"/>
                         <segue destination="FLo-cM-SwE" kind="modal" identifier="sunny" id="8KB-YZ-RT7"/>
                     </connections>
                 </viewController>
