@@ -10,6 +10,7 @@ import UIKit
 
 class SecondViewController: UIViewController {
 
+
     @IBOutlet weak var scrollView: UIScrollView!
     @IBOutlet weak var pagecontrol: UIPageControl!
     
@@ -18,7 +19,7 @@ class SecondViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         scrollPictures()
-
+   
     
     }
 

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EAA07F681D4949F900755320 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA07F671D4949F900755320 /* SecondViewController.swift */; };
+		EAA07F7A1D496E7000755320 /* Pop.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAA07F791D496E7000755320 /* Pop.storyboard */; };
 		EAFF8F001D49152B0099005D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFF8EFF1D49152B0099005D /* AppDelegate.swift */; };
 		EAFF8F021D49152B0099005D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFF8F011D49152B0099005D /* ViewController.swift */; };
 		EAFF8F051D49152B0099005D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAFF8F031D49152B0099005D /* Main.storyboard */; };
@@ -41,6 +42,7 @@
 
 /* Begin PBXFileReference section */
 		EAA07F671D4949F900755320 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondViewController.swift; path = AFNetworking/SecondViewController.swift; sourceTree = "<group>"; };
+		EAA07F791D496E7000755320 /* Pop.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Pop.storyboard; sourceTree = "<group>"; };
 		EAFF8EFC1D49152B0099005D /* Shopping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shopping.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAFF8EFF1D49152B0099005D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EAFF8F011D49152B0099005D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 				EAFF8F061D49152B0099005D /* Assets.xcassets */,
 				EAFF8F0B1D49152B0099005D /* Info.plist */,
 				EAFF8F431D4920750099005D /* Bridge.h */,
+				EAA07F791D496E7000755320 /* Pop.storyboard */,
 			);
 			path = Shopping;
 			sourceTree = "<group>";
@@ -275,6 +278,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAA07F7A1D496E7000755320 /* Pop.storyboard in Resources */,
 				EAFF8F071D49152B0099005D /* Assets.xcassets in Resources */,
 				EAFF8F051D49152B0099005D /* Main.storyboard in Resources */,
 			);
