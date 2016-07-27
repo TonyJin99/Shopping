@@ -14,7 +14,6 @@
 		EAFF8F0A1D49152B0099005D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAFF8F081D49152B0099005D /* LaunchScreen.storyboard */; };
 		EAFF8F151D49152B0099005D /* ShoppingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFF8F141D49152B0099005D /* ShoppingTests.swift */; };
 		EAFF8F201D49152B0099005D /* ShoppingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFF8F1F1D49152B0099005D /* ShoppingUITests.swift */; };
-		EAFF8F2E1D491E2D0099005D /* TJMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFF8F2D1D491E2D0099005D /* TJMainViewController.swift */; };
 		EAFF8F3D1D4920580099005D /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EAFF8F311D4920580099005D /* AFHTTPSessionManager.m */; };
 		EAFF8F3E1D4920580099005D /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EAFF8F341D4920580099005D /* AFNetworkReachabilityManager.m */; };
 		EAFF8F3F1D4920580099005D /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = EAFF8F361D4920580099005D /* AFSecurityPolicy.m */; };
@@ -54,7 +53,6 @@
 		EAFF8F1B1D49152B0099005D /* ShoppingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShoppingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAFF8F1F1D49152B0099005D /* ShoppingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingUITests.swift; sourceTree = "<group>"; };
 		EAFF8F211D49152B0099005D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EAFF8F2D1D491E2D0099005D /* TJMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TJMainViewController.swift; sourceTree = "<group>"; };
 		EAFF8F301D4920580099005D /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
 		EAFF8F311D4920580099005D /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
 		EAFF8F321D4920580099005D /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
@@ -126,7 +124,6 @@
 				EAFF8F061D49152B0099005D /* Assets.xcassets */,
 				EAFF8F081D49152B0099005D /* LaunchScreen.storyboard */,
 				EAFF8F0B1D49152B0099005D /* Info.plist */,
-				EAFF8F2D1D491E2D0099005D /* TJMainViewController.swift */,
 				EAFF8F431D4920750099005D /* Bridge.h */,
 			);
 			path = Shopping;
@@ -309,7 +306,6 @@
 				EAFF8F021D49152B0099005D /* ViewController.swift in Sources */,
 				EAFF8F001D49152B0099005D /* AppDelegate.swift in Sources */,
 				EAFF8F3E1D4920580099005D /* AFNetworkReachabilityManager.m in Sources */,
-				EAFF8F2E1D491E2D0099005D /* TJMainViewController.swift in Sources */,
 				EAFF8F3F1D4920580099005D /* AFSecurityPolicy.m in Sources */,
 				EAFF8F401D4920580099005D /* AFURLRequestSerialization.m in Sources */,
 				EAFF8F411D4920580099005D /* AFURLResponseSerialization.m in Sources */,
@@ -540,6 +536,7 @@
 				EAFF8F261D49152B0099005D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EAFF8F271D49152B0099005D /* Build configuration list for PBXNativeTarget "ShoppingTests" */ = {
 			isa = XCConfigurationList;
@@ -548,6 +545,7 @@
 				EAFF8F291D49152B0099005D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EAFF8F2A1D49152B0099005D /* Build configuration list for PBXNativeTarget "ShoppingUITests" */ = {
 			isa = XCConfigurationList;
@@ -556,6 +554,7 @@
 				EAFF8F2C1D49152B0099005D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
