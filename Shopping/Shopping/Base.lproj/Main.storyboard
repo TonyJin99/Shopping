@@ -74,7 +74,7 @@
         <!--Shop-->
         <scene sceneID="iGb-C8-chw">
             <objects>
-                <viewController id="UIr-0p-2Oj" sceneMemberID="viewController">
+                <viewController id="UIr-0p-2Oj" customClass="ThirdViewController" customModule="Shopping" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="8yj-Kh-UPw"/>
                         <viewControllerLayoutGuide type="bottom" id="KF2-hr-Gq3"/>
@@ -134,6 +134,9 @@
                                 <state key="normal" title="Add to Cart">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="buttonAction2:" destination="UIr-0p-2Oj" eventType="touchUpInside" id="HaC-r0-7h2"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5cu-1v-KKd">
                                 <rect key="frame" x="51" y="459" width="70" height="25"/>
@@ -142,6 +145,9 @@
                                 <state key="normal" title="Add to Cart">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="buttonAction4:" destination="UIr-0p-2Oj" eventType="touchUpInside" id="nmQ-hd-v6n"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aJZ-yh-ezc">
                                 <rect key="frame" x="201" y="459" width="75" height="25"/>
@@ -150,6 +156,9 @@
                                 <state key="normal" title="Add to Cart">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="buttonAction5:" destination="UIr-0p-2Oj" eventType="touchUpInside" id="sW4-OC-pyx"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Featured Item: Magician Hat        $39.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SpM-9h-WJF">
                                 <rect key="frame" x="20" y="10" width="280" height="21"/>
@@ -170,6 +179,9 @@
                                 <state key="normal" title="Add to Cart">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="buttonAction1:" destination="UIr-0p-2Oj" eventType="touchUpInside" id="BtH-b7-R7U"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Dress A   $99.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u8l-Sh-gfP">
                                 <rect key="frame" x="36" y="351" width="100" height="22"/>
@@ -190,6 +202,9 @@
                                 <state key="normal" title="Add to Cart">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="buttonAction3:" destination="UIr-0p-2Oj" eventType="touchUpInside" id="kCS-VO-k9T"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -215,7 +230,9 @@
                             <constraint firstItem="rEu-SU-rZl" firstAttribute="trailing" secondItem="ZIz-po-T1R" secondAttribute="trailing" id="v5R-bx-UUW"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Shop" id="4UE-Sh-f1O"/>
+                    <navigationItem key="navigationItem" title="Shop" id="4UE-Sh-f1O">
+                        <barButtonItem key="rightBarButtonItem" title="Item" id="he9-vn-TRY"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PeV-5I-WFd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -235,7 +252,7 @@
                         <subviews>
                             <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="4" translatesAutoresizingMaskIntoConstraints="NO" id="WUe-JZ-6aA">
                                 <rect key="frame" x="133" y="233" width="55" height="37"/>
-                                <color key="pageIndicatorTintColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="pageIndicatorTintColor" red="0.60000002379999995" green="0.40000000600000002" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="currentPageIndicatorTintColor" red="0.26971262060000001" green="0.60838641999999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </pageControl>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="StE-ki-u0X">

@@ -11,6 +11,7 @@
 		EAA07F7A1D496E7000755320 /* Pop.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAA07F791D496E7000755320 /* Pop.storyboard */; };
 		EAA07F7C1D49744200755320 /* PresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA07F7B1D49744200755320 /* PresentationController.swift */; };
 		EAA07F821D49968D00755320 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA07F811D49968D00755320 /* ThirdViewController.swift */; };
+		EAA07F841D4A64CF00755320 /* MIBadgeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA07F831D4A64CF00755320 /* MIBadgeButton.swift */; };
 		EAFF8F001D49152B0099005D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFF8EFF1D49152B0099005D /* AppDelegate.swift */; };
 		EAFF8F021D49152B0099005D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFF8F011D49152B0099005D /* ViewController.swift */; };
 		EAFF8F051D49152B0099005D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAFF8F031D49152B0099005D /* Main.storyboard */; };
@@ -47,6 +48,7 @@
 		EAA07F791D496E7000755320 /* Pop.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Pop.storyboard; sourceTree = "<group>"; };
 		EAA07F7B1D49744200755320 /* PresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentationController.swift; sourceTree = "<group>"; };
 		EAA07F811D49968D00755320 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		EAA07F831D4A64CF00755320 /* MIBadgeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MIBadgeButton.swift; path = AFNetworking/MIBadgeButton.swift; sourceTree = "<group>"; };
 		EAFF8EFC1D49152B0099005D /* Shopping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shopping.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAFF8EFF1D49152B0099005D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EAFF8F011D49152B0099005D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -138,6 +140,15 @@
 			name = Other;
 			sourceTree = "<group>";
 		};
+		EAA07F851D4A64E000755320 /* Third Library */ = {
+			isa = PBXGroup;
+			children = (
+				EAA07F831D4A64CF00755320 /* MIBadgeButton.swift */,
+				EAFF8F2F1D4920580099005D /* AFNetworking */,
+			);
+			name = "Third Library";
+			sourceTree = "<group>";
+		};
 		EAFF8EF31D49152B0099005D = {
 			isa = PBXGroup;
 			children = (
@@ -161,11 +172,11 @@
 		EAFF8EFE1D49152B0099005D /* Shopping */ = {
 			isa = PBXGroup;
 			children = (
+				EAA07F851D4A64E000755320 /* Third Library */,
 				EAA07F801D49769B00755320 /* Other */,
 				EAA07F7D1D49759400755320 /* First */,
 				EAA07F7E1D49759C00755320 /* Second */,
 				EAA07F7F1D4975A300755320 /* Third */,
-				EAFF8F2F1D4920580099005D /* AFNetworking */,
 			);
 			path = Shopping;
 			sourceTree = "<group>";
@@ -350,6 +361,7 @@
 				EAFF8F3E1D4920580099005D /* AFNetworkReachabilityManager.m in Sources */,
 				EAFF8F3F1D4920580099005D /* AFSecurityPolicy.m in Sources */,
 				EAFF8F401D4920580099005D /* AFURLRequestSerialization.m in Sources */,
+				EAA07F841D4A64CF00755320 /* MIBadgeButton.swift in Sources */,
 				EAFF8F411D4920580099005D /* AFURLResponseSerialization.m in Sources */,
 				EAA07F821D49968D00755320 /* ThirdViewController.swift in Sources */,
 				EAFF8F3D1D4920580099005D /* AFHTTPSessionManager.m in Sources */,
